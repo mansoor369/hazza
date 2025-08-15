@@ -45,7 +45,7 @@ export default function Home() {
           <div className="p-6">
             <div className="relative bg-gray-50 rounded-md overflow-hidden">
             <iframe title="Seats Analysis"
-             width="1024" height="1060"
+             width="1024" height="568"
               src="https://app.powerbi.com/view?r=eyJrIjoiMjA2N2NlN2UtZTEwZC00MTdkLThkM2EtZThjYmQ2MTI0YmIyIiwidCI6IjhmY2ZmMzM3LWM3MjYtNDVkZC04ZDk4LWM4YmE0ZGI3Y2MxNSIsImMiOjl9" frameborder="0" 
             allowFullScreen="true"></iframe>
             </div>
