@@ -44,15 +44,11 @@ export default function Home() {
           {/* Report Frame */}
           <div className="p-6">
             <div className="relative bg-gray-50 rounded-md overflow-hidden">
-              <iframe 
-                title="Seats Analysis" 
-                width="100%" 
-                height="600" 
-                src="https://app.powerbi.com/reportEmbed?reportId=041fbbe0-7cb1-44a8-ba1a-06cc81250406&autoAuth=true&ctid=8fcff337-c726-45dd-8d98-c8ba4db7cc15" 
-                frameBorder="0" 
-                allowFullScreen="true"
-                className="w-full h-[600px] border-0"
-              />
+            <iframe title="Seats Analysis"
+             width="600"
+              height="373.5"
+               src="https://app.powerbi.com/view?r=eyJrIjoiMjA2N2NlN2UtZTEwZC00MTdkLThkM2EtZThjYmQ2MTI0YmIyIiwidCI6IjhmY2ZmMzM3LWM3MjYtNDVkZC04ZDk4LWM4YmE0ZGI3Y2MxNSIsImMiOjl9" 
+            frameborder="0" allowFullScreen="true"></iframe>
             </div>
           </div>
 
