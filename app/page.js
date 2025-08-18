@@ -58,7 +58,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold text-gray-300">Partner Institutes</h3>
-                <p className="text-2xl font-bold text-white">17</p>
+                <p className="text-2xl font-bold text-white">16</p>
                 <p className="text-xs text-gray-400 font-medium">Collaborative Centers</p>
               </div>
             </div>
