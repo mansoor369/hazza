@@ -23,8 +23,10 @@ export default function Home() {
       </div>
 
       {/* Main Analytics Dashboard */}
-      <div className="max-w-7xl mx-auto px-6 py-6">
+      <div className="max-w-7xl mx-auto   px-6 py-6">
         {/* Dashboard Header */}
+
+        {/* Refreshing Visuals */}
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-white mb-3">Real-Time Analytics Dashboard</h2>
           <p className="text-sm text-gray-400 max-w-3xl mx-auto">
