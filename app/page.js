@@ -1,8 +1,7 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <div className="min-h-screen font-[Nunito] bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       {/* Header Section */}
       <div className="bg-gray-800/90 backdrop-blur-md shadow-xl border-b border-gray-700/60 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4">
