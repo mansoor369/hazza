@@ -348,6 +348,93 @@ export default function Home() {
           </div>
         </div>
 
+         {/* FeedBack Calls Report */}
+         <div className="bg-gray-800/90 backdrop-blur-sm rounded-2xl shadow-2xl border border-gray-700/50 overflow-hidden mb-8 hover:shadow-3xl transition-all duration-500 hover:bg-gray-800/95">
+          {/* Report Header */}
+          <div className="bg-gradient-to-r from-gray-900 to-gray-800 px-6 py-6">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/20">
+                  <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <h2 className="text-xl font-bold text-white tracking-tight">Hazza Overseas Batch 2 Leads Report</h2>
+                  <p className="text-xs text-gray-300 mt-1 font-medium">Strategic Leads Intelligence Platform</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold bg-white/10 text-white backdrop-blur-sm border border-white/20">
+                  <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
+                  Live Intelligence
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Report Description */}
+          <div className="px-6 py-6 bg-gradient-to-r from-gray-700/50 to-gray-800/50 border-b border-gray-700/50">
+            <div className="flex items-start space-x-3">
+              <div className="flex-shrink-0 mt-1">
+                <div className="w-8 h-8 bg-gradient-to-br from-gray-600 to-gray-800 rounded-lg flex items-center justify-center shadow-lg">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-sm font-bold text-white mb-2">Report Overview</h3>
+                <p className="text-xs text-gray-300 leading-relaxed">
+                  This  section features the <span className="font-bold text-white">Callers Feedback Report Calling</span> for <span className="font-bold text-white">Batch 2 of the PMOEP Project</span>.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Report Frame */}
+          <div className="p-6">
+            <div className="relative bg-gradient-to-br from-gray-700 to-gray-800 rounded-xl overflow-hidden shadow-inner border border-gray-700/50">
+              <iframe
+                title="Leads Analysis"
+                width="100%"
+                height="500"
+                src="https://app.powerbi.com/view?r=eyJrIjoiMDM3ZDFjMDYtNWM4Yy00NzhiLWIzZDgtOTliMjdmMDRhZjgzIiwidCI6IjhmY2ZmMzM3LWM3MjYtNDVkZC04ZDk4LWM4YmE0ZGI3Y2MxNSIsImMiOjl9"
+                className="w-full h-[500px] border-0"
+              />
+            </div>
+          </div>
+
+          {/* Report Footer */}
+          <div className="bg-gradient-to-r from-gray-700/50 to-gray-800/50 px-6 py-4 border-t border-gray-700/50">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-6">
+                <div className="flex items-center space-x-2 text-xs text-gray-400">
+                  <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span>Last updated: <span className="font-semibold text-gray-300">{new Date().toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                  })}</span></span>
+                </div>
+                <div className="flex items-center space-x-2 text-xs text-gray-400">
+                  <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span>Data Source: <span className="font-semibold text-gray-300">Power BI Analytics</span></span>
+                </div>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                <span className="text-xs font-semibold text-gray-300">Connected & Active</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Footer Section */}
         <div className="text-center py-8">
           <div className="bg-gray-800/80 backdrop-blur-sm rounded-xl shadow-lg border border-gray-700/50 p-6">
